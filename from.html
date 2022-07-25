@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <style>
+        .login-sec{
+            display: flex;
+            justify-content: center;
+            margin-top: 350px;
+        }
+        .login{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .login input{
+            margin-top: 1em;
+            font-size: 1.5em;
+            padding: 5px 10px;
+            
+        }
+        .login input[type="submit"]{
+            background-color: greenyellow;
+            border: 0;
+            border-radius: 4px;
+            color: white;
+            font-weight: 700;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+            font-size: 30px;
+            padding: 10px 20px;
+        }
+        nav{
+            display:flex ;
+            justify-content: space-between;
+        }
+        nav a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav >
+        <span>
+        <a href="">Dashboard</a>
+        <a href="">Home</a>
+        <a href="">Inventory</a>
+       
+        </span>
+        <span>
+            <a href="">Logout</a>
+        </span>
+        </nav>
+    </header>
+   <section class="login-sec">
+    <from class="login">
+        <h2>Please Login</h2>
+        <input type="email" name="" id="" placeholder="Enter your Email" required>
+        <input type="password" name="" id="" placeholder="Enter your password" required>
+        <input type="submit" value="LogIn">
+    </from>
+   </section>
+</body>
+</html>
